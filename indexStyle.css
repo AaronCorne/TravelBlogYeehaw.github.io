@@ -1,0 +1,206 @@
+@media screen and (max-width: 980px){ 
+  body{
+    background-color: beige;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  section{
+    background-color: navy;
+    border-radius: 46px;
+    padding: 1px;
+    margin: 15px;
+  }
+
+  #menu{
+    border-radius: 0;
+    padding: 0;
+    background-color: beige;
+  }
+  #banner{
+    border-radius: 0;
+  }
+
+  div{
+    background-color: rgb(73, 175, 222);
+    margin: 10px;
+    padding: 90px;
+    border-radius: 35px;
+  }
+  #nu{
+    background-color:rgb(34, 113, 149);
+  }
+  #welcomePage p{
+    background-color:rgb(34, 113, 149, 85%);
+    padding:25px;
+    color: white;
+  }
+  #welcomePage h1{
+    background-color: rgb(34, 113, 149, 85%);
+    color:white;
+  }
+  
+  #nu h1{
+    background-color: rgb(73, 175, 222, 85%);
+    padding: 15px;
+    color: white;
+  }
+  #nu p{
+    background-color: rgb(73, 175, 222, 85%);
+    padding: 15px;
+    color: white;
+  }
+
+    
+
+  #navBar{
+    background-color: rgb(121, 51, 30);
+        
+  }
+
+  #navBar img{
+    width: 100px;
+    height: 150px;
+  }
+  nav ul li{
+    list-style-type: none;
+    width: 175px;
+    padding: 14px;
+
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+
+  nav ul li a:hover{
+    text-decoration:underline;
+  }
+
+
+  
+  #test{
+    background-color:rgb(73, 175, 222);
+    width: 40px;
+    height: 25%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 0px;
+    border-radius: 20px;
+    margin-left: 0;
+  }
+
+
+  #test nav{
+    margin-left: -115px;
+    padding-top: 100px;
+    
+  }
+
+  #btn{
+    padding:40px;
+    width: 80px;
+    height:90px;
+    background-color: red;
+    position: absolute;
+    z-index: 3;
+    margin-top: 0px;
+    left: 148px;
+    border-radius: 0;
+  }
+
+  #scrnOverlay{
+    visibility: hidden;
+    z-index : 1;                        /* use layer 1 to overlay everything in layer 0 */
+    
+    position : fixed;                   /* Block out the whole screen */
+    top : 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    opacity : 0.5;
+  }
+
+  .navClick div{
+    height: 5px;
+    background-color: white;
+    margin: 8px;
+    padding: 0;
+    position: absolute;
+    z-index: 4;
+    width: 5%;
+    left: 26px;
+    top: 28px;
+    border-radius: 2px;
+  }
+  #mBar2{
+    top: 48px;
+    width: 3%;
+  }
+  #mBar3{
+    top: 68px;
+  }
+
+  #bannerDiv{
+    height: 147px;
+    padding: 19px;
+    background-image:url(images/boat.jpeg);
+    background-size: 925px 448px;
+    background-position: 0px -154px;
+    border-radius: 0;
+   
+  }
+
+  #bannerDiv h1{
+    text-align: center;
+    margin: 10px;
+    color: navy;
+    background-color: rgb(255,255,255, 40%);
+  }
+  #bannerDiv h5{
+    text-align: center;
+    margin:10px;
+    padding-left:100px;
+    color: navy;
+  }
+  
+  
+  #footer{
+    height: 140px;
+    padding: 0px;
+    border-radius: 35px;
+  }
+  
+  #footer ul li{
+    list-style-type: none;
+  }
+
+  #footer ul li a{
+    text-decoration: none;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    color: black;
+    font-size: 22.5px;
+    border-bottom: 5px solid;
+    border-color:white;
+  }
+
+#footer a:active{
+    color: white;
+  }
+
+#footer h3{
+    text-align: center;
+    padding: 24px;
+    margin-bottom: -22px;
+    
+  }
+  #footer p{
+    color: white;
+  }
+  
+}

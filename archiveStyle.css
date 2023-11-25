@@ -1,0 +1,42 @@
+@import url(indexStyle.css);
+@import url(firstBlogStyle.css);
+
+h1{
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family: monospace;
+    font-size: larger;
+  
+}
+#tbl{
+    margin-right: 20px;
+    margin-left: 110px;
+}
+
+#archiveSec p{
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+#tbl a{
+    text-decoration: none;
+    color: white;
+}
+
+#tbl a:hover{
+    text-decoration: underline;
+    background-color: navy;
+    font-size: smaller;
+}
+
+#archiveSec h1{
+  color:white;
+}

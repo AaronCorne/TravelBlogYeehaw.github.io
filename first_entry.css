@@ -1,0 +1,66 @@
+@import url(indexStyle.css);
+
+.blogDeets h1{
+    text-align: center;
+}
+
+.blogDeets p{
+    text-align: center;
+}
+
+/* .blogPic div{
+    height: 10px;
+    width: 50%;
+} */
+
+.blogPic img{
+    height: 500px;
+    margin: -25px;
+
+}
+
+.pictures div{
+    background: bisque;
+}
+.flexContainerVert{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.flexContainerVert div{
+    padding: 0;
+}
+.flexContainerVert img{
+    height: 500px;
+    padding-left: 245px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.flexContainerVert p, .flexContainerHoriz p{
+    padding-left: 25px;
+}
+
+.flexContainerHoriz{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.flexContainerHoriz div{
+    padding: 0;
+}
+.flexContainerHoriz img, video{
+    height: 500px;
+    padding-left: 61.25px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.flexContainerVert, .flexContainerHoriz h4{
+  padding-left: 12.5px;
+}
+.blogDeets{
+  
+  color: white;
+}
