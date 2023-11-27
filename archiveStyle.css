@@ -40,3 +40,7 @@ table, th, td{
 #archiveSec h1{
   color:white;
 }
+
+#footer a{
+  padding: 10px;
+}
