@@ -1,6 +1,7 @@
 /* THIS IS THE TEMPLATE FOR FIRST BLOG*/
 @import url(indexStyle.css);
 
+
 .blogDeets h1{
     text-align: center;
 }
@@ -28,7 +29,7 @@
 }
 .flexContainerVert{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     padding: 0;
 }
 
