@@ -9,7 +9,7 @@
 .blogDeets p{
     text-align: center;
     padding: 15px;
-    font-size: la
+    font-size: larger;
 }
 
 /* .blogPic div{
@@ -69,6 +69,25 @@
 .blogDeets{
   
   color: white;
+}
+
+#bonusBlog{
+  padding-left: 240px;
+}
+
+#bonusBtn{
+  height: 45px;
+  width: 50%;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: red;
+   
+}
+#medP{
+  text-align: center;
+  padding: 15px;
+  color: white;
+  
 }
 
 #footer a{
